@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+    "name": "Clock Extension",
+  "version": "1.0",
+  "description": "Clock Extension to check clocks of what I check in regular intervels",
+  "action": {
+    "default_popup": "clock.html",
+  "manifest_version": 3
+},
+ "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "https://api.timezonedb.com/"
+  ]
+}
